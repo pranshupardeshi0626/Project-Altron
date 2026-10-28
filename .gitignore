@@ -1,4 +1,19 @@
+# Secrets
+.env
+
+# Virtual environments
 venv/
+venv_frontend/
+
+# Python cache
 __pycache__/
 *.pyc
-.env
+
+# Generated data (rebuilt at runtime)
+vector_store/
+documents/*
+!documents/.gitkeep
+
+# Editor / notebook clutter
+.vscode/
+.ipynb_checkpoints/

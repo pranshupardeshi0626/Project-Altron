@@ -1,0 +1,3 @@
+# Frontend (use the venv_frontend venv: pip install -r frontend/requirements.txt)
+streamlit
+requests
